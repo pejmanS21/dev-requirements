@@ -3,17 +3,9 @@
 CGREEN="\e[32m"
 CNORMAL="\e[0m"
 
-echo '''
-
-    //   ) )                                              //   ) )  ___         
-   //___/ /  ___       ( )  _   __      ___       __     ((       //   ) ) /_  /
-  / ____ / //___) )   / / // ) )  ) ) //   ) ) //   ) )    \\      ___/ /   / / 
- //       //         / / // / /  / / //   / / //   / /       ) ) / ____/   / /  
-//       ((____ ((  / / // / /  / / ((___( ( //   / / ((___ / / / /____   / /   
-                                                 
-'''
+echo "IF9fX19fICAgICBfICAgICAgICAgICAgICAgICAgICAgICAgX19fX18gX19fICBfXyAKfCAgX18gXCAgIChfKSAgICAgICAgICAgICAgICAgICAgICAvIF9fX198X18gXC9fIHwKfCB8X18pIHxfXyBfIF8gX18gX19fICAgX18gXyBfIF9fIHwgKF9fXyAgICApIHx8IHwKfCAgX19fLyBfIFwgfCAnXyBgIF8gXCAvIF9gIHwgJ18gXCBcX19fIFwgIC8gLyB8IHwKfCB8ICB8ICBfXy8gfCB8IHwgfCB8IHwgKF98IHwgfCB8IHxfX19fKSB8LyAvXyB8IHwKfF98ICAgXF9fX3wgfF98IHxffCB8X3xcX18sX3xffCB8X3xfX19fXy98X19fX3x8X3wKICAgICAgICAgXy8gfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICB8X18vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK" | base64 --decode
 
 # shellcheck disable=SC2059
-printf "                       ${CGREEN}https://github.com/pejmanS21${CNORMAL}\n\n"
+printf "           ${CGREEN}https://github.com/pejmanS21${CNORMAL}\n\n"
 
 exec "$@"
